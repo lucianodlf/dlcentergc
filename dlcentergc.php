@@ -151,8 +151,8 @@ function send_mail($user_name, $user_email, $next_user_name, $prev_user_name)
 		$mail->CharSet = 'UTF-8';                                // Send using SMTP
 		$mail->Host = 'ssl://smtp.zoho.com';                    // Set the SMTP server to send through
 		$mail->SMTPAuth = true;                                   // Enable SMTP authentication
-		$mail->Username = 'luciano@datalabcenter.com';                     // SMTP username
-		$mail->Password = '$Emser4478$';                               // SMTP password
+		$mail->Username = 'luciano@exampledomain.com';                     // SMTP username
+		$mail->Password = '1111111';                               // SMTP password
 		$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
 		$mail->Port = 465;                                    // TCP port to connect to
 
